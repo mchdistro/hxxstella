@@ -1,0 +1,26 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/hxxstella/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "후니버스",
+    "description": "Minecraft 1.21.8 (Fabric v0.17.2)",
+    "icon": "https://github.com/mchdistro/hxxstella/raw/main/server-icon.png",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.17.2"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": ["options.txt"]
+    }
+  ]
+}
